@@ -1,16 +1,16 @@
-Source: wmf-elasticsearch-search-plugins
+Source: wmf-opensearch-search-plugins
 Section: database
 Priority: optional
 Maintainer: David Causse <dcausse@wikimedia.org>
 Build-Depends: debhelper (>= 9), curl, gnupg, unzip
 Standards-Version: 4.0.0
 
-Package: wmf-elasticsearch-search-plugins
+Package: wmf-opensearch-search-plugins
 Architecture: all
 Section: database
 Priority: optional
-Description: Elasticsearch plugins for search
- List of plugins needed by the elasticsearch cluster that powers search on
+Description: OpenSearch plugins for search
+ List of plugins needed by the opensearch cluster that powers search on
  wmf sites.
 Depends: ${dist:Depends}
 

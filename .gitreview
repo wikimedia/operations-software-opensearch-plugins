@@ -1,5 +1,5 @@
 [gerrit]
 host=gerrit.wikimedia.org
 port=29418
-project=operations/software/elasticsearch/plugins.git
+project=operations/software/opensearch/plugins.git
 defaultbranch=master

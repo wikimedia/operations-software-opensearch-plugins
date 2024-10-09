@@ -1,3 +1,10 @@
+wmf-opensearch-search-plugins (1.3.19-0) bullseye; urgency=medium
+
+  * Migrate package to opensearch
+  * Contains all previous plugins, nothing was lost in migration.
+
+ -- Erik <ebernhardson@ebernhardson-ThinkPad-X1-Carbon-7th>  Wed, 09 Oct 2024 10:59:04 -0800
+
 wmf-elasticsearch-search-plugins (7.10.2-12) bullseye; urgency=medium
 
   * Update extra plugin to wmf12
