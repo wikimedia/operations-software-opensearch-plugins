@@ -4,31 +4,31 @@
 # but apparently using $(shell lsb_release -sr) does not work
 # properly with pbuilder, force it to bullseye for now
 DISTRIBUTION = bullseye
-VERSION = 7.10.2
-BUILD_VERSION = 12
-ELASTIC_VERSION = 7.10.2
+VERSION = 1.3.19
+BUILD_VERSION = 0
+OPENSEARCH_VERSION = 1.3.19
 PACKAGEVERSION = $(VERSION)-$(BUILD_VERSION)~$(DISTRIBUTION)
 PLUGIN_LIST=debian/plugin_urls.lst
 BLOBS_DIR=debian/blobs
 SHA256FILE=debian/sha256sums
-SHORT_VERSION = $(shell echo $(ELASTIC_VERSION) | cut -d '.' -f 1-2 | tr -d '.')
-COMPONENT = elastic$(SHORT_VERSION)
+SHORT_VERSION = $(shell echo $(OPENSEARCH_VERSION) | cut -d '.' -f 1-2 | tr -d '.')
+COMPONENT = opensearch$(SHORT_VERSION)
 
 %:
 	dh $@
 
 override_dh_auto_clean:
-	rm -rf debian/wmf-elasticsearch-search-plugins
+	rm -rf debian/wmf-opensearch-search-plugins
 override_dh_auto_test: check_sha256
 override_dh_auto_build:
 override_dh_auto_install:
-	cp -a $(BLOBS_DIR) debian/wmf-elasticsearch-search-plugins
+	cp -a $(BLOBS_DIR) debian/wmf-opensearch-search-plugins
 
 override_dh_gencontrol:
-	dh_gencontrol -- -v$(PACKAGEVERSION) -Vdist:Depends="elasticsearch-oss (=$(ELASTIC_VERSION)) | elasticsearch (=$(ELASTIC_VERSION))"
+	dh_gencontrol -- -v$(PACKAGEVERSION) -Vdist:Depends="opensearch (=$(OPENSEARCH_VERSION))"
 
 download_blobs: clean_blobs
-	debian/checkout.bash $(BLOBS_DIR) $(PLUGIN_LIST) $(ELASTIC_VERSION)
+	debian/checkout.bash $(BLOBS_DIR) $(PLUGIN_LIST) $(OPENSEARCH_VERSION)
 
 # use this target before commiting to gerrit
 prepare_commit: download_blobs verify_unreleased
@@ -47,7 +47,7 @@ verify_commit: download_blobs check_sha256
 	@echo OK
 
 verify_unreleased:
-	! curl --fail --head https://apt.wikimedia.org/wikimedia/pool/component/$(COMPONENT)/w/wmf-elasticsearch-search-plugins/wmf-elasticsearch-search-plugins_$(VERSION)-$(BUILD_VERSION).tar.gz
+	! curl --fail --head https://apt.wikimedia.org/wikimedia/pool/component/$(COMPONENT)/w/wmf-opensearch-search-plugins/wmf-opensearch-search-plugins_$(VERSION)-$(BUILD_VERSION).tar.gz
 
 check_sha256:
 	sha256sum -c $(SHA256FILE)

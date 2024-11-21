@@ -1,10 +1,10 @@
-Debian package to bundle elasticsearch plugins needed for search.
+Debian package to bundle opensearch plugins needed for search.
 
 I. PREPARE A NEW VERSION
 ------------------------
-When adding a new plugin or upgrading to a new elastic version the developer
+When adding a new plugin or upgrading to a new opensearch version the developer
 needs to:
- - update debian/rules to set the new elastic/build version
+ - update debian/rules to set the new opensearch/build version
  - update debian/plugin_urls.lst to add new plugins or change custom versions
    make sure the GPG key ID (separated by comma at the end of a line) matches
    the one used for signing the release, and that this key has been published
@@ -18,7 +18,7 @@ This command will execute the bash script debian/checkout.bash. This script
 will:
  - download all plugins listed in debian/plugin_urls.lst
  - verify gpg signature if one is provided
- - check for elasticsearch version
+ - check for opensearch version
  - assemble the plugin files to debian/blobs
  - generate a new debian/sha256sums
 
@@ -92,14 +92,14 @@ VI. FORMATS
 plugin_urls.lst is a flat file with one line per plugin formatted as follow:
 URL,GPG_KEY
 e.g.
-https://artifacts.elastic.co/downloads/elasticsearch-plugins/analysis-icu/analysis-icu-$ELASTICSEARCH_VERSION.zip,D27D666CD88E42B4
+https://artifacts.opensearch.org/releases/plugins/analysis-icu/$OPENSEARCH_VERSION/analysis-icu-$OPENSEARCH_VERSION.zip,C5B7498965EFD1C2924BA9D539D319879310D3FC
 Use none when the zip is not signed.
-$ELASTICSEARCH_VERSION will resolve to the version defined in debian/rules,
+$OPENSEARCH_VERSION will resolve to the version defined in debian/rules,
 it's useful for core plugins.
 
 VII. DEVELOPER IMAGES
 ---------------------
 When shipping a new version of the plugins you might want to also update the
 images used by developers that work with CirrusSearch and Elasticsearch. The
-project is named cirrussearch-elasticsearch-image
-(https://gitlab.wikimedia.org/repos/search-platform/cirrussearch-elasticsearch-image).
+project is named cirrussearch-opensearch-image
+(https://gitlab.wikimedia.org/repos/search-platform/cirrussearch-opensearch-image).
