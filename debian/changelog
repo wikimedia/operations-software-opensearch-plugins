@@ -1,3 +1,9 @@
+wmf-opensearch-search-plugins (1.3.20-0) bullseye; urgency=medium
+
+  * Update to 1.3.20
+
+ -- David Causse <dcausse@wikimedia.org>  Mon, 10 Feb 2025 16:23:03 +0100
+
 wmf-opensearch-search-plugins (1.3.19-0) bullseye; urgency=medium
 
   * Migrate package to opensearch
