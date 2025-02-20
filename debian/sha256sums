@@ -56,10 +56,10 @@ f321b2b6ba609207dc7ae4907bd9a8e639f975ce62d90239acd9353994d1c811  debian/blobs/u
 ed07f047f872f570bf77dd072c153962bd1b39572a0e5782ff2f5e06d2bc725e  debian/blobs/usr/share/opensearch/plugins/ltr/lucene-expressions-8.10.1.jar
 171146ece50076a169d67de011e0723523ad34ec66e55836e1ba4d405a01849d  debian/blobs/usr/share/opensearch/plugins/ltr/plugin-descriptor.properties
 a15f94681d1d57aa9bd520745766fa90ff4e97aa934ac5edcd4dc0c47eda68fe  debian/blobs/usr/share/opensearch/plugins/ltr/plugin-security.policy
-58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd  debian/blobs/usr/share/opensearch/plugins/opensearch-analisys-stconvert/LICENSE.txt
-0af9c58f27f7cfdc96144482bd3c435959ea8f5dcb0432e01404d228198ba08a  debian/blobs/usr/share/opensearch/plugins/opensearch-analisys-stconvert/NOTICE.txt
-27f6ac9c8265b13dec57e2486e8f903f31eb551a9989bac7a76152aab2cf2b3d  debian/blobs/usr/share/opensearch/plugins/opensearch-analisys-stconvert/opensearch-analisys-stconvert-1.3.20.jar
-6e1bd9d5a1fdac492970132cf53a58f8ce17921983fc27e0a9c4136e459ab063  debian/blobs/usr/share/opensearch/plugins/opensearch-analisys-stconvert/plugin-descriptor.properties
+58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd  debian/blobs/usr/share/opensearch/plugins/opensearch-analysis-stconvert/LICENSE.txt
+0af9c58f27f7cfdc96144482bd3c435959ea8f5dcb0432e01404d228198ba08a  debian/blobs/usr/share/opensearch/plugins/opensearch-analysis-stconvert/NOTICE.txt
+01d104e2b2493f8786e7d0f9091638f29f63b6ed94da3032604e64ad5150b5d3  debian/blobs/usr/share/opensearch/plugins/opensearch-analysis-stconvert/opensearch-analysis-stconvert-1.3.20-wmf1.jar
+1ae3e4270ffc55d7446e2bca147957926643d725a55e78d090a83bd717c9c59f  debian/blobs/usr/share/opensearch/plugins/opensearch-analysis-stconvert/plugin-descriptor.properties
 8e2ebb394887278954a694d49bb5f942b5cb599ff05bf39a8db784b46715638b  debian/blobs/usr/share/opensearch/plugins/opensearch-extra-analysis-esperanto/opensearch-extra-analysis-esperanto-1.3.20.jar
 5ab9603213b05b9baafcec4576eabbc9c297073835dcc179615b47896b6a41a1  debian/blobs/usr/share/opensearch/plugins/opensearch-extra-analysis-esperanto/plugin-descriptor.properties
 972139718abc8a4893fa78cba8cf7b2c903f35c97aaf44fa3031b0669948b480  debian/blobs/usr/share/opensearch/plugins/opensearch-extra-analysis-homoglyph/guava-21.0.jar

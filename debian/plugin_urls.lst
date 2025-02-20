@@ -1,4 +1,4 @@
-https://gitlab.wikimedia.org/api/v4/groups/308/-/packages/maven/org/opensearch/plugin/opensearch-analisys-stconvert/$OPENSEARCH_VERSION/opensearch-analisys-stconvert-$OPENSEARCH_VERSION.zip,none
+https://gitlab.wikimedia.org/api/v4/groups/308/-/packages/maven/org/opensearch/plugin/opensearch-analysis-stconvert/$OPENSEARCH_VERSION-wmf1/opensearch-analysis-stconvert-$OPENSEARCH_VERSION-wmf1.zip,none
 https://artifacts.opensearch.org/releases/plugins/analysis-icu/$OPENSEARCH_VERSION/analysis-icu-$OPENSEARCH_VERSION.zip,C5B7498965EFD1C2924BA9D539D319879310D3FC
 https://artifacts.opensearch.org/releases/plugins/analysis-stempel/$OPENSEARCH_VERSION/analysis-stempel-$OPENSEARCH_VERSION.zip,C5B7498965EFD1C2924BA9D539D319879310D3FC
 https://artifacts.opensearch.org/releases/plugins/analysis-smartcn/$OPENSEARCH_VERSION/analysis-smartcn-$OPENSEARCH_VERSION.zip,C5B7498965EFD1C2924BA9D539D319879310D3FC

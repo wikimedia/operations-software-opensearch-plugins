@@ -1,3 +1,9 @@
+wmf-opensearch-search-plugins (1.3.20-1) bullseye; urgency=medium
+
+  * Fix typo in opensearch-analysis-stconvert plugin name
+
+ -- David Causse <dcausse@wikimedia.org>  Thu, 20 Feb 2025 10:10:27 +0100
+
 wmf-opensearch-search-plugins (1.3.20-0) bullseye; urgency=medium
 
   * Update to 1.3.20
