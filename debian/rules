@@ -5,7 +5,7 @@
 # properly with pbuilder, force it to bullseye for now
 DISTRIBUTION = bullseye
 VERSION = 1.3.20
-BUILD_VERSION = 1
+BUILD_VERSION = 2
 OPENSEARCH_VERSION = 1.3.20
 PACKAGEVERSION = $(VERSION)-$(BUILD_VERSION)~$(DISTRIBUTION)
 PLUGIN_LIST=debian/plugin_urls.lst
@@ -29,6 +29,7 @@ override_dh_gencontrol:
 
 download_blobs: clean_blobs
 	debian/checkout.bash $(BLOBS_DIR) $(PLUGIN_LIST) $(OPENSEARCH_VERSION)
+	debian/fetch-sudachi-dict.bash $(BLOBS_DIR)
 
 # use this target before commiting to gerrit
 prepare_commit: download_blobs verify_unreleased
