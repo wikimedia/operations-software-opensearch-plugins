@@ -1,3 +1,12 @@
+wmf-opensearch-search-plugins (1.3.20-5) bullseye; urgency=medium
+
+  * Bump opensearch-extra to 1.3.20-wmf1
+  * Bump cirrus-highlighter to 1.3.20-wmf1
+  * Both version bumps add functionality for extended lucene regex queries
+    and highlighting.
+
+ -- Erik Bernhardson <ebernhardson@wikimedia.org>  Wed, 07 May 2025 10:54:47 -0700
+
 wmf-opensearch-search-plugins (1.3.20-4) bullseye; urgency=medium
 
   * Bump ltr plugin to 1.5.4-wmf1-os1.3.20
