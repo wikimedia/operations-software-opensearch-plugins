@@ -15,7 +15,7 @@ https://oss.sonatype.org/service/local/repositories/releases/content/org/wikimed
 https://oss.sonatype.org/service/local/repositories/releases/content/org/wikimedia/search/opensearch-extra-analysis-esperanto/$OPENSEARCH_VERSION/opensearch-extra-analysis-esperanto-$OPENSEARCH_VERSION.zip,A01B7AEAE1A5E2F3
 https://oss.sonatype.org/service/local/repositories/releases/content/org/wikimedia/search/opensearch-extra-analysis-turkish/$OPENSEARCH_VERSION/opensearch-extra-analysis-turkish-$OPENSEARCH_VERSION.zip,A01B7AEAE1A5E2F3
 https://oss.sonatype.org/service/local/repositories/releases/content/org/wikimedia/search/opensearch-extra-analysis-textify/$OPENSEARCH_VERSION/opensearch-extra-analysis-textify-$OPENSEARCH_VERSION.zip,A01B7AEAE1A5E2F3
-https://gitlab.wikimedia.org/api/v4/groups/308/-/packages/maven/com/o19s/ltr/1.5.4-os$OPENSEARCH_VERSION/ltr-1.5.4-os$OPENSEARCH_VERSION.zip,none
+https://gitlab.wikimedia.org/api/v4/groups/308/-/packages/maven/com/o19s/ltr/1.5.4-wmf1-os$OPENSEARCH_VERSION/ltr-1.5.4-wmf1-os$OPENSEARCH_VERSION.zip,none
 https://gitlab.wikimedia.org/api/v4/groups/308/-/packages/maven/com/code972/hebmorph/analysis-hebrew/$OPENSEARCH_VERSION/analysis-hebrew-$OPENSEARCH_VERSION.zip,none
 https://artifacts.opensearch.org/releases/plugins/repository-s3/$OPENSEARCH_VERSION/repository-s3-$OPENSEARCH_VERSION.zip,C5B7498965EFD1C2924BA9D539D319879310D3FC
 https://people.wikimedia.org/~ebernhardson/opensearch-$OPENSEARCH_VERSION-analysis-sudachi-3.3.0.zip,none

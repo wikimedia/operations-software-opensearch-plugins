@@ -66,9 +66,9 @@ fc68d27d03ae26180523ce20e387db00bd0fdeec54fca24d2990592c0afad112  debian/blobs/u
 cb9422df1f98a886b608b27318d9903d6c7fe2813521d5452c86531ec3c02b9f  debian/blobs/usr/share/opensearch/plugins/ltr/asm-commons-8.0.1.jar
 f321b2b6ba609207dc7ae4907bd9a8e639f975ce62d90239acd9353994d1c811  debian/blobs/usr/share/opensearch/plugins/ltr/asm-tree-8.0.1.jar
 478ce317231ff42024bf7b6f1447a15e6d961358b564ac158ebfe4c53fdd404f  debian/blobs/usr/share/opensearch/plugins/ltr/compiler-0.9.3.jar
-493aff4d30d40c2f4bef7b4452fd22570e32ff985406e12850a390ef8983a7ab  debian/blobs/usr/share/opensearch/plugins/ltr/ltr-1.5.4-os1.3.20.jar
+fd24f9a3ddf13b8cf0f4a8ffed5d1355b2a8fbcec681b6ff7794317cd6e2c5e1  debian/blobs/usr/share/opensearch/plugins/ltr/ltr-1.5.4-wmf1-os1.3.20.jar
 ed07f047f872f570bf77dd072c153962bd1b39572a0e5782ff2f5e06d2bc725e  debian/blobs/usr/share/opensearch/plugins/ltr/lucene-expressions-8.10.1.jar
-171146ece50076a169d67de011e0723523ad34ec66e55836e1ba4d405a01849d  debian/blobs/usr/share/opensearch/plugins/ltr/plugin-descriptor.properties
+2f1a63a9093451a914198b9e1223aa6e28f68b80a4a71aa1989271495b287979  debian/blobs/usr/share/opensearch/plugins/ltr/plugin-descriptor.properties
 a15f94681d1d57aa9bd520745766fa90ff4e97aa934ac5edcd4dc0c47eda68fe  debian/blobs/usr/share/opensearch/plugins/ltr/plugin-security.policy
 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd  debian/blobs/usr/share/opensearch/plugins/opensearch-analysis-stconvert/LICENSE.txt
 0af9c58f27f7cfdc96144482bd3c435959ea8f5dcb0432e01404d228198ba08a  debian/blobs/usr/share/opensearch/plugins/opensearch-analysis-stconvert/NOTICE.txt
